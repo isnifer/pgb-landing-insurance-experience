@@ -1,0 +1,137 @@
+.payoff-example {
+    .clearfix();
+    margin-bottom: 85px;
+    color: #7d7d7d;
+    font-weight: 300;
+
+    &:first-child {
+        margin-top: 100px;
+    }
+
+    &:last-child {
+        margin-bottom: 100px;
+    }
+
+    &__number {
+        float: left;
+        color: #f0082a;
+        font-size: 24px;
+        width: 27px;
+    }
+
+    &__content {
+        float: left;
+        width: 950px;
+    }
+
+    &__red-wrapper {
+        border-left: 1px solid #ed1f24;
+        padding-left: 40px;
+
+        &:after,
+        &:before {
+            content: '';
+            display: table;
+            width: 100%;
+        }
+    }
+
+    &__title {
+        color: #000;
+        font-size: 24px;
+        font-weight: 300;
+        margin: 0 0 18px;
+    }
+
+    &__view {
+        color: #ed1f24;
+        font-size: 16px;
+        line-height: 20/16;
+        margin-top: 50px;
+        cursor: pointer;
+        display: inline-block;
+    }
+
+    &__example {
+        display: none;
+        margin-top: 25px;
+        padding-left: 41px;
+        font-size: 16px;
+        line-height: 20/16;
+
+        &_visible {
+            display: block;
+        }
+    }
+
+    &__mark {
+        color: #000;
+    }
+
+    &__formula {
+        font-size: 28px;
+        line-height: 1;
+        color: #000;
+        margin-top: 15px;
+    }
+
+    &__item {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    &__value {
+        display: block;
+    }
+
+    &__month {
+        font-size: 14px;
+        text-align: center;
+        color: #555f64;
+        display: block;
+    }
+
+    &__part {
+        display: inline-block;
+        vertical-align: top;
+
+        &_left {
+            width: 645px;
+            padding-right: 30px;
+        }
+
+        &_right {
+            padding-top: 50px;
+            width: 215px;
+            font-size: 12px;
+            line-height: 14/12;
+        }
+    }
+
+    &__element,
+    &__greater,
+    &__less,
+    &__take {
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+    }
+
+    &__greater,
+    &__less,
+    &__take {
+        color: #f0082a;
+        font-size: 12px;
+        position: relative;
+        text-align: center
+    }
+
+    &__symbol {
+        font-size: 30px;
+        line-height: 20/30;
+    }
+
+    &__lh-14 {
+        line-height: 1.4;
+    }
+}
