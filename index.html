@@ -12,7 +12,7 @@
     <div class="payoff-page">
 
         <!-- Шапка -->
-        <div class="payoff-header">
+        <div class="payoff-header payoff-header_insurance">
             <div class="payoff-wrapper">
                 <div class="payoff-header__logo">
                     <span class="payoff-header__title">
@@ -21,14 +21,13 @@
                     </span>
                 </div>
                 <h1 class="payoff-header__question">
-                    Как правильно рассчитать <br>
-                    больничный сотруднику <br>
-                    в 2015 году.
+                    Как рассчитать страховой стаж <br>
+                    для больничного листа
                 </h1>
                 <div class="payoff-header__description">
-                    Пошаговый алгоритм расчета пособия по временной <br>
-                    нетрудоспособности с формулой и примерами. <br>
-                    Способ сэкономить время при расчете больничных.
+                    Правила расчета стажа с примером. Онлайн-сервис, <br>
+                    который сэкономит время на расчете стажа <br>
+                    и больничного.
                 </div>
                 <i class="payoff-header__scroll"></i>
             </div>
@@ -37,221 +36,48 @@
         <!-- Примеры -->
         <div class="payoff-wrapper">
             <div class="payoff-example">
-                <div class="payoff-example__number">1</div>
                 <div class="payoff-example__content">
-                    <div class="payoff-example__red-wrapper">
-                        <div class="payoff-example__part payoff-example__part_left">
-                            <h3 class="payoff-example__title">Определите страховой стаж сотрудника</h3>
-                            <div class="payoff-example__text">
-                                Размер выплаты больничного зависит от страхового стажа — общего количества лет,
-                                которые проработал человек.
-                                <br><br>
-                                <span class="payoff-example__lh-14">
-                                    100% размера пособия полагается, если страховой стаж 8 лет и больше; <br>
-                                    80% — при стаже от 5 до 8 лет; <br>
-                                    60% — если стаж меньше 5 лет.
-                                </span>
-                            </div>
-                        </div>
-                        <div class="payoff-example__part payoff-example__part_right">
-                            ст. 7 Закона от 29 декабря 2006 г. <br>
-                            № 255-ФЗ
-                        </div>
+                    <div class="payoff-example__title">
+                        От страхового стажа зависит размер больничного пособия: <br>
+                        8 лет стажа и больше — 100%, от 5 до 8 лет — 80%, менее 5 лет — 60%
                     </div>
-                </div>
-            </div>
-            <div class="payoff-example">
-                <div class="payoff-example__number">2</div>
-                <div class="payoff-example__content">
-                    <div class="payoff-example__red-wrapper">
-                        <div class="payoff-example__part payoff-example__part_left">
-                            <h3 class="payoff-example__title">Сложите все начисления за 2013 и 2014 годы</h3>
-                            <div class="payoff-example__text">
-                                Возьмите все выплаты сотруднику, с которых выплачивались взносы в ФСС, <br>
-                                но не больше облагаемого взносами лимита: <br>
-                                <span class="payoff-example__lh-14">
-                                    — 624 000 руб. за 2014 год; <br>
-                                    — 568 000 руб. за 2013 год.
-                                </span>
-                            </div>
+                    <div class="payoff-formula">
+                        <div class="payoff-formula__result">
+                            Страховой стаж <br>
+                            сотрудника
                         </div>
-                        <div class="payoff-example__part payoff-example__part_right">
-                            П. 1 постановления Правительства РФ <br>
-                            от 30 ноября 2013 г. № 1101
-                            <br><br>
-                            П. 1 постановления Правительства РФ <br>
-                            от 10 декабря 2012 г. № 1276.
+                        <div class="payoff-formula__symbol payoff-formula__symbol_micro">=</div>
+                        <div class="payoff-formula__text">
+                            Время работы в компании <br>
+                            до даты начала болезни
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div class="payoff-example">
-                <div class="payoff-example__number">3</div>
-                <div class="payoff-example__content">
-                    <div class="payoff-example__red-wrapper">
-                        <div class="payoff-example__part payoff-example__part_left">
-                            <h3 class="payoff-example__title">Определите средний дневной заработок сотрудника</h3>
-                            <div class="payoff-example__text">
-                                <strong class="payoff-example__mark">Важно:</strong>
-                                длительность расчетного периода для пособия по нетрудоспособности <br>
-                                всегда 730 дней, никакие дни из расчета не исключаются
-                            </div>
-                            <div class="payoff-formula">
-                                <div class="payoff-formula__result">
-                                    Средний дневной <br>
-                                    заработок
-                                </div>
-                                <div class="payoff-formula__symbol payoff-formula__symbol_micro">=</div>
-                                <div class="payoff-formula__text">
-                                    Начисления сотрудника за 2013-2014 годы <br>
-                                    в пределах лимита
-                                </div>
-                                <div class="payoff-formula__symbol payoff-formula__symbol_micro">÷</div>
-                                <div class="payoff-formula__text payoff-formula__text_number payoff-formula__text_low">
-                                    730
-                                </div>
-                                <i class="payoff-formula__vertical payoff-formula__vertical_hospital"></i>
-                                <span class="payoff-formula__average-days payoff-formula__average-days_hospital">
-                                    Длительность расчетного периода
-                                </span>
-                                <br><br><br><br><br>
-                            </div>
+                        <div class="payoff-formula__symbol payoff-formula__symbol_micro">+</div>
+                        <div class="payoff-formula__text">
+                            Прошлые периоды занятости <br>
+                            из трудовой книжки
                         </div>
-                        <div class="payoff-example__part payoff-example__part_right">
-                            Ч. 1 и 3 статьи 14 Закона от 29 декабря <br>
-                            2006 г. № 255-ФЗ
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="payoff-example">
-                <div class="payoff-example__number">4</div>
-                <div class="payoff-example__content">
-                    <div class="payoff-example__red-wrapper">
-                        <h3 class="payoff-example__title">Дневной заработок для расчета итоговой суммы пособия</h3>
-                        <div class="payoff-example__text">
-                            <div>
-                                Сравните фактическую величину дневного заработка с минимальным и максимальным ограничением.
-                            </div><br><br>
-                            <div>
-                                <span class="payoff-example__element">
-                                    Фактический <br>
-                                    дневной заработок
-                                </span>
-                                <span class="payoff-example__greater">
-                                    <span class="payoff-example__symbol">&#62;</span> <br>
-                                    больше
-                                </span>
-                                <span class="payoff-example__element">
-                                    Максимального <br>
-                                    дневного заработка
-                                </span>
-                                <span class="payoff-example__take">
-                                    <span class="payoff-example__symbol">⇒</span> <br>
-                                    берите
-                                </span>
-                                <span class="payoff-example__element">
-                                    <strong class="payoff-example__mark">
-                                        Максимальный дневной заработок <br>
-                                        для итоговой суммы пособия
-                                    </strong>
-                                </span>
-                            </div><br>
-                            <div>
-                                <span class="payoff-example__element">
-                                    Фактический <br>
-                                    дневной заработок
-                                </span>
-                                <span class="payoff-example__less">
-                                    <span class="payoff-example__symbol">&#60;</span> <br>
-                                    меньше
-                                </span>
-                                <span class="payoff-example__element">
-                                    Минимального <br>
-                                    дневного заработка
-                                </span>
-                                <span class="payoff-example__take">
-                                    <span class="payoff-example__symbol">⇒</span> <br>
-                                    берите
-                                </span>
-                                <span class="payoff-example__element">
-                                    <strong class="payoff-example__mark">
-                                        Минимальный дневной заработок <br>
-                                        для итоговой суммы пособия
-                                    </strong>
-                                </span>
-                            </div><br>
-                            <div>
-                                В остальных случаях берем фактический дневной заработок для итоговой суммы пособия.
-                            </div><br><br>
-                            <div class="payoff-example__lh-14">
-                                <strong class="payoff-example__mark">
-                                    Дневной заработок для расчета пособия по временной нетрудоспособности в 2015 году
-                                </strong> <br>
-                                <span>
-                                    <span class="payoff-example__mark">Максимальный — 1632,88 руб</span> =
-                                    568 000 руб за 2013 год + 624 000 руб за 2014 год ÷ 730 дн
-                                </span> <br>
-                                <span>
-                                    <span class="payoff-example__mark">Минимальный — 196,11 руб</span> =
-                                    5 965 руб × 24 мес ÷ 730 дн (5 965 руб — это МРОТ в 2015 году)
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="payoff-example">
-                <div class="payoff-example__number">5</div>
-                <div class="payoff-example__content">
-                    <div class="payoff-example__red-wrapper">
-                        <h3 class="payoff-example__title">Определите итоговую сумму пособия</h3>
-                        <div class="payoff-formula">
-                            <div class="payoff-formula__result">
-                                Сумма пособия <br>
-                                по временной <br>
-                                нетрудоспособности
-                            </div>
-                            <div class="payoff-formula__symbol">=</div>
-                            <div class="payoff-formula__text payoff-formula__text_middle">
-                                Дневной <br>
-                                заработок
-                            </div>
-                            <div class="payoff-formula__symbol">÷</div>
-                            <div class="payoff-formula__text">
-                                Размер пособия в процентах <br>
-                                от дневного заработка <br>
-                                (100%, 80%, 60%)
-                            </div>
-                            <div class="payoff-formula__symbol">×</div>
-                            <div class="payoff-formula__text payoff-formula__text_middle">
-                                Количество календарных <br>
-                                дней болезни
-                            </div>
-                        </div>
-                        <div class="payoff-example__view">Посмотреть пример</div>
-                    </div>
-                    <div class="payoff-example__example">
-                        Иванова Мария Петровна на&nbsp;больничном с&nbsp;16&nbsp;по&nbsp;20&nbsp;марта 2015&nbsp;года.
-                        Работает в&nbsp;должности<br>
-                        секретаря-референта с&nbsp;10&nbsp;февраля 2014&nbsp;года. Первое место работы. <br>
-                        Страховой стаж&nbsp;&mdash; меньше 5&nbsp;лет. Размер выплаты пособия составит 60%. <br><br>
+                    </div><br><br>
+                    <div class="payoff-example__text">
+                        Стаж определяется из расчета полных месяцев и полного года.
+                        Полный месяц — это 30 дней. Полный год — это 12 месяцев.
+                    </div><br>
+                    <div class="payoff-example__example payoff-example__example_normal payoff-example__example_visible">
+                        <strong class="payoff-example__mark">Пример</strong><br><br>
+                        Иванова Мария Петровна работает в&nbsp;компании &laquo;Кукушка&raquo;
+                        с&nbsp;10&nbsp;февраля 2014. Это ее&nbsp;первое место работы. <br>
+                        С 1&nbsp;по&nbsp;6&nbsp;июля Мария была на&nbsp;больничном. <br><br>
 
-                        Начисления за&nbsp;2013 год&nbsp;&mdash; 0, за&nbsp;2014&nbsp;&mdash; 322&nbsp;500 руб
-                        (300&nbsp;000 за&nbsp;март-декабрь 2014 + 22&nbsp;500 <br>
-                        за&nbsp;15&nbsp;отработанных дней в&nbsp;феврале 2014) <br><br>
+                        На&nbsp;1&nbsp;июля 2015 года в&nbsp;страховой стаж входит все время работы в&nbsp;компании:<br>
+                        &mdash;&nbsp;1&nbsp;полный год
+                        (12&nbsp;полных месяцев с&nbsp;марта 2014 по&nbsp;февраль 2015), <br>
+                        &mdash;&nbsp;4&nbsp;полных месяца (март&mdash;июнь 2015), <br>
+                        &mdash;&nbsp;19&nbsp;дней в&nbsp;1&nbsp;неполном месяце (10&ndash;28 февраля 2014). <br><br>
 
-                        Средний дневной заработок: 322&nbsp;500 руб &divide; 730 = 441,78&nbsp;руб. <br>
-                        Это меньше максимального дневного заработка и&nbsp;больше максимального.
-                        Значит, для итоговой суммы <br>
-                        пособия нужно взять фактическую величину дневного заработка,
-                        <span class="payoff-example__mark">441,78&nbsp;руб.</span> <br><br>
-
-                        <span class="payoff-example__mark">
-                            441,78 руб &times; 60% &times; 5&nbsp;дней болезни = 1&nbsp;325, 35&nbsp;руб
-                        </span><br>
-                        795,21 руб&nbsp;&mdash; 3&nbsp;дня болезни оплачиваются за&nbsp;счет компании <br>
-                        530, 14&nbsp;руб&nbsp;&mdash; 2&nbsp;дня за&nbsp;счет ФСС <br>
+                        Страховой стаж Марии&nbsp;&mdash;
+                        <span class="payoff-example__mark">1&nbsp;год, 4&nbsp;месяца, 19&nbsp;дней</span>.
+                        Это меньше 5&nbsp;лет. <br>
+                        При расчете больничного Марии полагается&nbsp;
+                        <span class="payoff-example__mark">60%</span> пособия.
                     </div>
                 </div>
             </div>
@@ -261,14 +87,15 @@
         <div class="payoff-calculate">
             <div class="payoff-wrapper">
                 <h2 class="payoff-calculate__title">
-                    Рассчитать больничный без ошибок <br>
-                    поможет Программа Главбух
+                    Программа Главбух определит <br>
+                    страховой стаж на момент <br>
+                    расчета больничного
                 </h2>
                 <div class="payoff-calculate__description">
                     Программа сообщит сумму пособия по временной нетрудоспособности сотрудника <br>
                     и предоставит подробное объяснение расчета. Так же, как в примере
                 </div>
-                <img class="payoff-calculate__pic" src="build/img/payoff-calculate/pic.png" />
+                <img class="payoff-calculate__pic" src="build/img/payoff-calculate/insurance-pic.png" />
             </div>
         </div>
 
@@ -283,15 +110,15 @@
         <div class="payoff-ai">
             <div class="payoff-wrapper">
                 <h2 class="payoff-ai__title">
-                    В Программе Главбух больничный <br>
-                    оформляется за пару секунд
+                    Программа Главбух рассчитает больничный <br>
+                    за пару секунд
                 </h2>
                 <div class="payoff-ai__description">
-                    Один раз указываете информацию о сотруднике. Страховой стаж программа считает сама: <br>
-                    сервис включит все время работы сотрудника в компании (до даты начала болезни) <br>
-                    и все прошлые периоды занятости из трудовой книжки.
+                    Один раз для всех расчетов указываете данные о сотруднике. Время работы сотрудника <br>
+                    в вашей компании сервис посчитает сам, а по предыдущим местам работы попросит <br>
+                    ввести периоды из трудовой книжки.
                 </div>
-                <img src="build/img/payoff-ai/pic.png" class="payoff-ai__pic" />
+                <img src="build/img/payoff-ai/insurance-pic.png" class="payoff-ai__pic" />
             </div>
         </div>
 
@@ -301,8 +128,8 @@
                 <div class="payoff-annotate__part">
                     <div class="payoff-annotate__content">
                         <div class="payoff-annotate__main">
-                            Программа определит сумму больничного, <br>
-                            заполнит справку-расчет
+                            Программа сообщит сумму пособия <br>
+                            по временной нетрудоспособности сотрудника
                         </div>
                         <div class="payoff-annotate__text">
                             Вам достаточно ввести данные из больничного листка
@@ -310,7 +137,7 @@
                     </div>
                 </div>
                 <div class="payoff-annotate__part">
-                    <img src="build/img/payoff-annotate/dismissal.png"
+                    <img src="build/img/payoff-annotate/insurance-dismissal.png"
                          class="payoff-annotate__pic payoff-annotate__pic_to-left" />
                 </div>
             </div>
@@ -320,12 +147,13 @@
         <div class="payoff-annotate payoff-annotate_white">
             <div class="payoff-wrapper">
                 <div class="payoff-annotate__part">
-                    <img src="build/img/payoff-annotate/details.png" class="payoff-annotate__pic" />
+                    <img src="build/img/payoff-annotate/insurance-details.png" class="payoff-annotate__pic" />
                 </div>
                 <div class="payoff-annotate__part">
                     <div class="payoff-annotate__content payoff-annotate__content_right">
                         <div class="payoff-annotate__main">
-                            Программа Главбух в момент расчета заполнит нужные документы
+                            Программа Главбух в момент расчета <br>
+                            заполнит нужные документы
                         </div>
                         <div class="payoff-annotate__text">
                             В справке-расчете — вся информация по пособию
@@ -345,72 +173,15 @@
                             в расчетный листок сотрудника
                         </div>
                         <div class="payoff-annotate__text">
-                            Все выплаты работнику за месяц: больничный, зарплата <br>
+                            Здесь все выплаты работнику за месяц: больничный, зарплата <br>
                             за остаток месяца, взносы и НДФЛ. Нажмите на выделенное <br>
-                            оранжевым число и отроется объяснение расчета.
+                            оранжевым число, и откроется объяснение расчета.
                         </div>
                     </div>
                 </div>
                 <div class="payoff-annotate__part">
-                    <img src="build/img/payoff-annotate/list.png" class="payoff-annotate__pic" />
+                    <img src="build/img/payoff-annotate/insurance-list.png" class="payoff-annotate__pic" />
                 </div>
-            </div>
-        </div>
-
-        <!-- И главное! -->
-        <div class="payoff-main">
-            <div class="payoff-wrapper">
-                <h2 class="payoff-main__title">
-                    Программа Главбух знает обо всех <br>
-                    условиях расчета больничного
-                </h2>
-                <div class="payoff-main__description">
-                    Например, когда пособие по временной нетрудоспособности <br>
-                    рассчитывается из минимума, т.е. из МРОТ
-                </div>
-                <div class="payoff-main__table">
-                    <table class="payoff-main__table-content">
-                        <thead class="payoff-main__table-thead">
-                            <tr class="payoff-main__table-header">
-                                <th class="payoff-main__th">Ситуация</th>
-                                <th class="payoff-main__th">Пример</th>
-                                <th class="payoff-main__th">Как считать пособие</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr class="payoff-main__tr">
-                                <td class="payoff-main__td">В расчетном периоде не было заработка</td>
-                                <td class="payoff-main__td">
-                                    Был отпуск по уходу за ребенком или отпуск <br>Без содержания
-                                </td>
-                                <td class="payoff-main__td">Средний дневной заработок принимается равным МРОТ</td>
-                            </tr>
-                            <tr class="payoff-main__tr">
-                                <td class="payoff-main__td">Средний месячный заработок ниже МРОТ</td>
-                                <td class="payoff-main__td">У сотрудника маленькая зарплата</td>
-                                <td class="payoff-main__td">
-                                    Пособие выплачивается в размере, не&nbsp;превышающем МРОТ за полный календарный месяц
-                                </td>
-                            </tr>
-                            <tr class="payoff-main__tr">
-                                <td class="payoff-main__td">Общий стаж сотрудника менее 6 месяцев</td>
-                                <td class="payoff-main__td">Молодой сотрудник только начал карьеру</td>
-                                <td class="payoff-main__td"></td>
-                            </tr>
-                            <tr class="payoff-main__tr">
-                                <td class="payoff-main__td">Есть основания для снижения размера пособия</td>
-                                <td class="payoff-main__td">
-                                    Нарушение больничного режима или неявка на осмотр к врачу
-                                </td>
-                                <td class="payoff-main__td"></td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-                <div class="payoff-main__table-after">
-                    Онлайн-сервис подробно объяснит алгоритм расчета в сложной ситуации
-                </div>
-                <img src="build/img/payoff-main/icon.png" class="payoff-main__pic" height="864" width="761" />
             </div>
         </div>
 

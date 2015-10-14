@@ -17,6 +17,9 @@ body {
   background-size: cover;
   height: 752px;
 }
+.payoff-header_insurance {
+  background: url(img/payoff-header/insurancebg.png) no-repeat center;
+}
 .payoff-header__logo {
   background: url(img/payoff-header/logo.png) no-repeat 0 0;
   width: 315px;
@@ -116,6 +119,9 @@ body {
 }
 .payoff-example__example_visible {
   display: block;
+}
+.payoff-example__example_normal {
+  padding: 0;
 }
 .payoff-example__mark {
   color: #000;
